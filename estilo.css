@@ -1,0 +1,143 @@
+body {
+    background-color: #e7e7e7;   /* O fundo da página deve ter uma cor suave */
+    font-family: Arial, sans-serif;
+}
+
+div#interface {
+    width: 800px;
+    background-color: #d3d3d3;   /* O fundo da página deve ter uma cor suave */
+    margin: -20px auto 0px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* O título (<h1>) deve ter uma cor diferente e estar centralizado */
+h1 {
+    font-size: 40px;
+    color: #4169e1;
+    text-align: center;
+}
+
+h2 {
+    text-indent: 3em;
+}
+
+/* O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado */
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+div#botao {
+    font-size: larger;
+    text-align: center;
+}
+
+div#botao button {
+    font-size: medium;
+    background-color: #e7e7e7;
+    font-weight: bold;
+}
+
+div#mensagem {
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: #4169e1;
+}
+
+/* A lista (<ul>) deve ter um espaçamento maior entre os itens */
+ul {
+    line-height: 2;
+}
+
+/* A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado*/
+figure#rnb {
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 400px;
+    height: 266px;
+}
+
+figure#rnb img {
+    border-radius: 50px;
+    width: 400px;
+    height: 266px;
+    margin: 0px;
+}
+
+figure#rnb p {
+    text-align: right;
+    text-indent: 0em;
+    margin-top: 180px;
+}
+
+figure#rnb figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 400px;
+    height: 266px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    border-radius: 50px;
+}
+
+figure#rnb:hover figcaption {
+    border-radius: 50px;
+    opacity: 1;
+}
+
+/* A tabela(<table>) deve estar estilizada */
+
+table#paises {
+    background-color: #333333;
+    border: 2px solid #333333;
+    margin-left: 40px;
+    border-spacing: 3px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+table#paises td {
+    border-color: #000000;
+    text-align: center;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+table#paises td.ce {
+    border-color: #000000;
+    padding: 80px;
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #ffffff;
+    background-color: #606060;
+}
+
+table#paises td.cd {
+    background-color: #333333;
+    padding: 0px
+}
+
+table#paises img {
+    display: block;
+}
+
+/* O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele */
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a52a2a;
+    text-decoration: underline;
+}

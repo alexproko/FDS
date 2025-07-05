@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FDS - Alexandre Prokopiuk</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div id="interface"> <!-- cria a divisão para delimitar uma área horizontal -->
+        <h1>Alexandre Prokopiuk</h1> <!-- 1. Um título principal (<h1>) com seu nome. -->
+        <!-- Um parágrafo (<p>) apresentando uma breve autobiografia (nome, idade, cidade, interesses etc.).-->
+        <p>Olá! Meu nome é Alexandre Prokopiuk, tenho 47 anos e nasci em Porto Alegre.
+            Músico de nascimento, bancário por opção, já estudei Medicina Veterinária,
+            trabalhei com pesquisas no ramo da Bioquímica e Biomedicina,
+            mas foi realmente na música que tive muitas conquistas, gravando com artistas nacionais e internacionais.
+        </p>
+        <div id="botao">
+            <button onclick="botaoMensagem()">Clique para ver uma mensagem!</button> <!-- botão -->
+        </div>    
+            <div id="mensagem"></div>
+        
+        <!-- 3. Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas. -->
+        <h2>Meus hobbies:</h2>
+        <ul>
+            <li>Tocar Contrabaixo</li>
+            <li>Informática e Eletrônica</li>
+            <li>Viajar de moto</li>
+        </ul>
+        <!-- 4. Uma imagem (<img>) que represente um dos hobbies mencionados. -->
+        <figure id="rnb">
+            <img src="imagens/palco.jpg">
+            <figcaption>
+                <p>Tocando no Rock in Bira com a<br>
+                    SABOTAGE - Black Sabbath Cover
+                </p>
+            </figcaption>
+        </figure>
+        <!-- 5. Uma tabela <table> que contenha o nome e a imagem de três países que gostaria de visitar. (tabela com 3 linhas x 2 colunas) -->
+        <h2>Países que gostaria de visitar:</h2>
+        <table id="paises">
+            <tr>
+                <td class="ce">Japão</td>
+                <td class="cd"><img src="imagens/japao1.jpg" alt="Templo japonês com cidade ao fundo" width="300"></td>
+            </tr>
+            <tr>
+                <td class="ce">Grécia</td>
+                <td class="cd"><img src="imagens/grecia2.jpg" alt="Ruínas na Grécia" width="300"></td>
+            </tr>
+            <tr>
+                <td class="ce">Rússia</td>
+                <td class="cd"><img src="imagens/russia3.jpg" alt="Prédios com arquitetura típicas da Rússia"
+                        width="300">
+                </td>
+            </tr>
+        </table>
+        <!-- 6. Um link (<a>) que leve para um site de interesse do aluno (exemplo: um site de notícias, tecnologia ou entretenimento). -->
+        <p>Confira meu site favorito no momento: <a href="https://viagemdemoto.com" target="_blank">ViagemdeMoto.com</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
