@@ -129,6 +129,7 @@ table#paises td.cd {
 
 table#paises img {
     display: block;
+    width: 300px;
 }
 
 /* O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele */
