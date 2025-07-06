@@ -1,11 +1,13 @@
 body {
-    background-color: #e7e7e7;   /* O fundo da página deve ter uma cor suave */
+    background-color: #e7e7e7;
+    /* O fundo da página deve ter uma cor suave */
     font-family: Arial, sans-serif;
 }
 
 div#interface {
     width: 800px;
-    background-color: #d3d3d3;   /* O fundo da página deve ter uma cor suave */
+    background-color: #d3d3d3;
+    /* O fundo da página deve ter uma cor suave */
     margin: -20px auto 0px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
